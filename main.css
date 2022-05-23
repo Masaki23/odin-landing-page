@@ -23,16 +23,25 @@ ul {
     gap: 16px;
 }
 
+button {
+    width: 100px;
+    height: 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
 .hero {
     background-color: #1f2937;
-    display: flex;
 }
 
 .header {
     display: flex;
     padding: 16px;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px 0 200px;    
 }
 
 .logo {
@@ -42,14 +51,35 @@ ul {
     font-weight: 700;
 }
 
-.heroContent {
+.headerText {
     display: flex;
 }
 
-.mainText {
+.title  {
     display: flex;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+    width: 540px;
 }
 
-.subText {
+.subtext {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 540px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: gray;
+    color: #f9faf8;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
     display: flex;
 }
