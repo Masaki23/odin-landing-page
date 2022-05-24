@@ -59,6 +59,7 @@ img {
 .headerText {
     display: flex;
     flex-direction: column;
+    padding-right: 64px;
 }
 
 .title  {
@@ -96,7 +97,6 @@ img {
     background-color: #1f2937;
     justify-content: space-between;
     padding: 0 200px 0 200px;
-    gap: 16px;
 }
 
 .randomBlock {
