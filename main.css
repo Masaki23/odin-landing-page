@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 body {
     display: flex;
@@ -136,4 +137,36 @@ button {
     flex-wrap: wrap;
     width: 146px;
     text-align: center;
+}
+
+.quoteContainer {
+    display: flex;
+    background-color: #e5e7eb;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    width: 61%;
+    flex-direction: column;
+}
+
+.quoteText {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }
