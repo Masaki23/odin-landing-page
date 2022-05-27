@@ -8,6 +8,7 @@ body {
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #212122;
 }
 
 ul {
@@ -43,7 +44,6 @@ h1 {
     display: flex;
     font-size: 36px;
     font-family: 'Roboto';
-    color: #1f2937;
 }
 
 button {
@@ -67,11 +67,16 @@ button.CTAButton {
     border-color: #f9faf8;
 }
 
-.headerContainer {
+.headerContainer, .heroContainer, 
+.galleryContainer, .quoteContainer, 
+.CTASection {
     display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.headerContainer {
+    
     background-color: #1f2937;
-    margin-left: 15%;
-    margin-right: 15%;
     justify-content: space-between;
     align-items: center;
     padding-left: 200px;
@@ -86,10 +91,7 @@ button.CTAButton {
 }
 
 .heroContainer {
-    display: flex;
     background-color: #1f2937;
-    margin-left: 15%;
-    margin-right: 15%;
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
@@ -122,11 +124,11 @@ button.CTAButton {
 }
 
 .galleryContainer {
-    display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 32px;
     padding-bottom: 64px;
+    background-color: #FFFFFF;
 }
 
 .gallery {
@@ -148,10 +150,7 @@ button.CTAButton {
 }
 
 .quoteContainer {
-    display: flex;
     background-color: #e5e7eb;
-    margin-left: 15%;
-    margin-right: 15%;
     padding-top: 64px;
     padding-bottom: 64px;
     justify-content: center;
@@ -180,13 +179,11 @@ button.CTAButton {
 }
 
 .CTASection {
-    display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
     justify-content: center;
     align-items: center;
     padding-top: 64px;
     padding-bottom: 64px;
+    background-color: #FFFFFF;
 }
 
 .CTAContainer {
@@ -211,4 +208,14 @@ button.CTAButton {
     display: flex;
     color: #f9faf8;
     font-size: 18px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
