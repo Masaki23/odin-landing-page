@@ -55,8 +55,16 @@ button {
     align-items: center;
     color: #f9faf8;
     width: 100px;
+    height: 32px;
     font-weight: 700;
     font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+button.CTAButton {
+    border-style: solid;
+    border-color: #f9faf8;
 }
 
 .headerContainer {
@@ -169,4 +177,38 @@ button {
     align-self: flex-end;
     font-weight: 700;
     font-size: 24px;
+}
+
+.CTASection {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.CTAContainer {
+    display: flex;
+    background-color: #3882f6;
+    width: 75%;
+    height: 120px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.CTAHeader {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.CTAText {
+    display: flex;
+    color: #f9faf8;
+    font-size: 18px;
 }
